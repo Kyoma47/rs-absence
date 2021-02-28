@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-RsAbsenceApplication<rs-absence>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "ac.fst.rsabsence.RsAbsenceApplication",
+            "projectName": "rs-absence",
+            "args": ""
+        }
+    ]
+}

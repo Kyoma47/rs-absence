@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>Accueil</title>
+	<link rel="stylesheet" type="text/css" th:href="@{/accueil/css/bootstrap.min.css}">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+	<link rel="stylesheet" type="text/css" th:href="@{/accueil/css/font-awesome.min.css}">
+	<link rel="stylesheet" type="text/css" th:href="@{/accueil/css/style.css}">
+	<link rel="stylesheet" th:href="@{/accueil/css/animate.css}">
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+<!-- Header -->
+<div class="header-div">
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header logo-div bounceInLeft wow" data-wow-duration="2s">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://www.fsts.ac.ma/">FST Settat</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse top-right-menu-ul bounceInRight wow" id="bs-example-navbar-collapse-1" data-wow-duration="4s">
+      <ul class="nav navbar-nav navbar-right">
+      <!--
+		<li><a href="#features">Features</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#Call-to-Action">Call to Action</a></li>
+        <li><a href="#Price">Price</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Testimonial">Testimonial</a></li>
+	  -->
+        <li><a href="/prof">Se Connecter</a></li>
+      </ul>
+    </div><!-- End navbar-collapse -->
+  </div><!-- End container -->
+</nav>
+
+<div class="container wow bounceInDown" data-wow-duration="5s">
+	<div class="row">
+		<div class="col-md-offset-2 col-md-8 text-center slide-text">
+			<h1>Bienvenu</h1>
+			<p>Ceci est une application Spring boot qui permet de gérer les absences des eleves par des professeurs.</p>
+		</div><!-- End col-md-8-->
+		<div class="col-md-offset-2"></div><!-- End col-md-offset-2 -->
+	</div><!-- End Row -->
+</div><!-- End Contanier -->
+
+</div><!-- End header-div -->
+
+<!-- Dev par : -->
+<div class="container" id="About">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="main_heading">
+				<h1>Developpé par :</h1>
+				<div  class="text-center"><span class="underline"></span></div>
+			</div>
+		</div><!-- End col-md-12 -->
+	</div><!-- End row -->
+
+
+	<div class="row">
+		<div class="col-md-4 about-us-box wow fadeInUp animated">
+		    <div class="about-us-photo">
+		    	<img src="images/1.jpg" alt="">
+		    	<div class="about-us-role">FI-GI</div>
+		    </div>
+		    <h3>Jawad Mediane</h3>
+		    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+		</div>
+
+		<div class="col-md-4 about-us-box wow fadeInUp animated">
+		    <div class="about-us-photo">
+		    	<img src="images/2.jpg" alt="">
+		    	<div class="about-us-role">FI-GI</div>
+		    </div>
+		    <h3>Siham Soulkane</h3>
+		    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+		</div>
+
+		<div class="col-md-4 about-us-box wow fadeInUp animated">
+		    <div class="about-us-photo">
+		    	<img src="images/3.jpg" alt="">
+		    	<div class="about-us-role">FI-GI</div>
+		    </div>
+		    <h3>Oum Keltoum Oqaidi</h3>
+		    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+		</div>
+	</div><!-- End row -->
+
+</div><!-- End container -->	
+<!-- End About -->
+
+
+<!-- Remerciements -->
+<div class="call-action-color" id="Testimonial">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="main_heading">
+					<h1>Remerciements</h1>
+					<div  class="text-center"><span class="underline"></span></div>
+				</div>
+			</div><!-- End col-md-12 -->
+		</div><!-- End row -->
+
+		<div class="col-md-12">
+			<p>Nous souhaitons adresser nos remerciements à monsieur <strong style="color : #E98E00;">Marzouk Abderrahim</strong> pour la qualité de son enseignement, sa disponibilité et surtout l’autonomie qu’il nous a offert pendant ce semestre mémorable.</p>
+		</div><!-- End col-md-12-->
+
+	</div><!-- End container -->	
+</div>
+
+<!-- End Testimonial -->
+
+
+
+
+<script type="text/javascript" src="/accueil/js/jquery-main.js"></script>
+<script type="text/javascript" src="/accueil/js/bootstrap.min.js"></script>
+<script src="/accueil/js/wow.min.js"></script>
+
+<script>
+	new WOW().init();
+</script>
+
+</body>
+</html>
